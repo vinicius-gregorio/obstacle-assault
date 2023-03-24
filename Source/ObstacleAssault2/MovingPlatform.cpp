@@ -15,7 +15,8 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	SetActorLocation(TargetPosition);
 }
 
 // Called every frame
